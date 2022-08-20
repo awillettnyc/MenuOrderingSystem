@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "target": "es5",
+    "removeComments": false,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src/menuOrdering.ts"],
+  "ts-node": {
+    "moduleTypes": {
+      "jest.config.ts": "cjs"
+    }
+  }
+}
